@@ -1,52 +1,34 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name: Portfolio Website
 
-> Description the project.
+> Description the project: Desin of responsive portfolio website
 
 
 ## Built With
 
 - Major languages
+  > Html, CSS
+
 - Frameworks
+  > Bootstrap
+
 - Technologies used
+  > Git and Github
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Ernest Anyewe Adonu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@principlebrothers](https://github.com/principlebrothers)
+- Twitter: [@adonu_ernest](https://twitter.com/adonu_ernest)
+- LinkedIn: [Ernest Anyewe Adonu](www.linkedin.com/in/ernest-adonu-7b61951b0)
 
-👤 **Author2**
+👤 **Anasse Laarabi**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
