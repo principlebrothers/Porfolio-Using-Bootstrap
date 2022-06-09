@@ -53,15 +53,11 @@
   color: #172b4d;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
+.group-icons {
   gap: 15px;
 }
 
 .caret-down {
-  display: flex;
-  justify-content: center;
   padding-top: 74px;
   margin-bottom: 512px;
 }
@@ -132,8 +128,6 @@
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
