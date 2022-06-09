@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 *,
 *::before,
@@ -140,4 +140,80 @@
 .d-flex {
   padding: 12px;
   background: #fff;
+}
+
+/* project section */
+
+.works img {
+  width: 100%;
+}
+
+.works ul {
+  margin: 0 32px;
+}
+
+.works ul li a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 3%;
+  background-color: #ebf0ee;
+  font-size: 12px;
+  color: #172b4d;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.works button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3%;
+  background-color: #36b37f;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  border: none;
+  margin: 29px auto;
+}
+
+.card-text {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: -10px;
+}
+
+.works h2 {
+  margin: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 24px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.card {
+  margin: 16px 12px 16px 12px;
+  padding: 0;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+}
+
+/* ######## contact section ######## */
+
+.contact p {
+  font-family: 'Inter', sans-serif;;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+}
+
+.contact .col-md-8 * {
+  margin-top: 10px;
+}
+
+.contact {
+  background: url(img/bg-1_contact.png) 1% 90% no-repeat, url(img/bg-2_contact.png) 25% 90% no-repeat, url(img/bg-3_contact.png) 100% 80% no-repeat ;
+  padding-bottom: 225px;
 }
