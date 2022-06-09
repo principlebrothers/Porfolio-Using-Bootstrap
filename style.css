@@ -107,7 +107,7 @@
 
 .emblem img {
   border-radius: 50%;
-  margin: 40px 145px 64px 144px;
+  margin: 40px 130px 64px 130px;
   background: #fff;
   padding: 10px
 }
@@ -125,9 +125,12 @@
   border-radius: 8px;
   margin-bottom: 84px;
   margin-right: 24px;
+  flex-grow: 0;
 }
 
 .wrapper {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
