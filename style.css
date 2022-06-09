@@ -68,3 +68,12 @@ img {
   font-size: 30px;
   line-height: 52px;
 }
+
+.contact .col-md-8 * {
+  margin-top: 10px;
+}
+
+.contact {
+  background: url(img/bg-1_contact.png) 1% 90% no-repeat, url(img/bg-2_contact.png) 25% 90% no-repeat, url(img/bg-3_contact.png) 100% 80% no-repeat ;
+  padding-bottom: 225px;
+}
