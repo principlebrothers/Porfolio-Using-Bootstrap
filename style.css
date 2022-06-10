@@ -27,7 +27,7 @@
 }
 
 .font-monospace {
-  padding: 186px 260px 0px 260px;
+  /* padding: 186px 260px 0px 260px; */
   margin-bottom: 0px;
   font-weight: 800;
   text-align: center;
@@ -45,7 +45,7 @@
 }
 
 .lh-1 {
-  padding: 24px 260px;
+  /* padding: 24px 260px; */
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -68,7 +68,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 52px 260.5px;
+  /* padding: 52px 260.5px; */
   background: url(./About-images/Group-right.png) 100% -70% no-repeat, url(./About-images/about-desktop-left.png) 0% 50% no-repeat;
 }
 
@@ -217,3 +217,13 @@
   background: url(img/bg-1_contact.png) 1% 90% no-repeat, url(img/bg-2_contact.png) 25% 90% no-repeat, url(img/bg-3_contact.png) 100% 80% no-repeat ;
   padding-bottom: 225px;
 }
+
+/* @media (max-width: 768px)  {
+  * {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+} */
