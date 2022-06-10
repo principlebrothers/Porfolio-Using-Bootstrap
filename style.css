@@ -1,10 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
-body {
-  background-color: #fff;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
 }
 
-img {
+.headline {
+  background-image: url(./Header-background/Header-llustration.png);
+  background-repeat: no-repeat;
+}
+
+.nav {
+  margin-top: 16px;
+}
+
+.nav-link {
+  color: #344563;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.font-monospace {
+  /* padding: 186px 260px 0px 260px; */
+  margin-bottom: 0px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 48px;
+  line-height: 60px;
+  font-style: normal;
+}
+
+.intro {
+  color: #172b4d;
+}
+
+.occupation {
+  color: #3b833e;
+}
+
+.lh-1 {
+  /* padding: 24px 260px; */
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #172b4d;
+}
+
+.group-icons {
+  gap: 15px;
+}
+
+.caret-down {
+  padding-top: 74px;
+  margin-bottom: 512px;
+}
+
+/*About-me-section*/
+.text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 52px 260.5px; */
+  background: url(./About-images/Group-right.png) 100% -70% no-repeat, url(./About-images/about-desktop-left.png) 0% 50% no-repeat;
+}
+
+.fs-1 {
+  margin: 0 auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+}
+
+.text-center {
+  padding: 24px 0px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
+
+}
+
+.btn {
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+}
+
+.emblem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emblem img {
+  border-radius: 50%;
+  margin: 40px 130px 64px 130px;
+  background: #fff;
+  padding: 10px
+}
+
+.fw-semibold {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.col {
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  margin-bottom: 84px;
+  margin-right: 24px;
+  flex-grow: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+}
+
+.d-flex {
+  padding: 12px;
+  background: #fff;
+}
+
+/* project section */
+
+.works img {
   width: 100%;
 }
 
@@ -77,3 +217,13 @@ img {
   background: url(img/bg-1_contact.png) 1% 90% no-repeat, url(img/bg-2_contact.png) 25% 90% no-repeat, url(img/bg-3_contact.png) 100% 80% no-repeat ;
   padding-bottom: 225px;
 }
+
+/* @media (max-width: 768px)  {
+  * {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+} */
