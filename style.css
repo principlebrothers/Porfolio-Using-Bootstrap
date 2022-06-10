@@ -27,8 +27,9 @@
 }
 
 .font-monospace {
-  /* padding: 186px 260px 0px 260px; */
-  margin-bottom: 0px;
+  padding-top: 186px;
+  width: 60%;
+  margin: auto;
   font-weight: 800;
   text-align: center;
   font-size: 48px;
@@ -44,8 +45,10 @@
   color: #3b833e;
 }
 
-.lh-1 {
-  /* padding: 24px 260px; */
+.description {
+  padding: 24px 0;
+  width: 80%;
+  margin : auto;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -68,7 +71,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 52px 260.5px; */
+  padding-top: 52px;
+  padding-bottom: 52px;
   background: url(./About-images/Group-right.png) 100% -70% no-repeat, url(./About-images/about-desktop-left.png) 0% 50% no-repeat;
 }
 
@@ -218,12 +222,15 @@
   padding-bottom: 225px;
 }
 
-/* @media (max-width: 768px)  {
-  * {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+@media (max-width: 768px)  {
+  .works .row {
+    width : 80%;
+    margin: auto;
+  }
+
+  .about-me .container .col {
+    width : 80%;
+    margin: 20px auto;
 
   }
-} */
+}
